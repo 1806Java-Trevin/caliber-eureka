@@ -52,7 +52,7 @@
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 				<configuration>
-					<mainClass>com.revature.caliber.eureka.Application</mainClass>
+					<mainClass>com.revature.caliber.eureka.EurekaDiscoveryApplication</mainClass>
 					<addResources>true</addResources>
 				</configuration>
 				<executions>
