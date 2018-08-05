@@ -12,13 +12,7 @@ public class EurekaDiscoveryApplication {
 	
 	public static void main(String[] args) throws Exception {
 		
-		if(args.length > 0 && args[0] == "Test") {
-			return;
-		}
-		else {
-			SpringApplication.run(EurekaDiscoveryApplication.class, args);
-		}
-		// SpringApplication.run(EurekaDiscoveryApplication.class, args);
+		SpringApplication.run(EurekaDiscoveryApplication.class, args);
 	}
 	
 	public String getTest() {
