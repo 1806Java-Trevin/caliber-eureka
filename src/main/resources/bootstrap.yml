@@ -4,4 +4,3 @@ spring:
   cloud:
     config:
       uri: ${CALIBER_CONFIG_SERVER_URL}
-      fail-fast: true
